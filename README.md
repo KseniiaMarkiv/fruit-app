@@ -2,7 +2,7 @@
 
 Wrote of website layout from [YouTube link](https://www.youtube.com/watch?v=zpKkuKV3KLE&t=1109s), but I changed:
 1. whole design I rewrote on scss file;
-2. some responsive design;
+2. some responsive and adaptive design;
 3. made minification scss and js files;
 4. improved performance, special abilities, recomendation and search engine optimization.
 
