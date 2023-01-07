@@ -11,7 +11,50 @@
 </head>
 
 <body>
+    <section>
+        <div class="bg"></div>
+        <header>
+            <a href="#" class="logo">Fruits</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Wat&#39;s New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
 
+        <div class="content">
+            <div class="textBox">
+                <h2>Eat Fresh Everyday</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint culpa a aut, magnam recusandae ullam iure, ipsam, modi doloremque voluptatibus necessitatibus qui perspiciatis nostrum enim ab? Sint molestias aliquam modi facilis quibusdam. Quod, aut iusto.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="imgs/apple.webp" alt="Apple image" class="fruits" width="450" height="450">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li data-text="Apple" class="active"><img src="imgs/apple.webp" alt="Apple image" width="50" height="50" onclick="imgSlider('imgs/apple.webp'); changeBgColor('#fc4a55');"></li>
+            <li data-text="Mango"><img src="imgs/mango.webp" alt="Mango image" width="50" height="50" onclick="imgSlider('imgs/mango.webp'); changeBgColor('#ffcc02');"></li>
+            <li data-text="Water Melon"><img src="imgs/watermelon.webp" alt="Watermelon image" width="50" height="50" onclick="imgSlider('imgs/watermelon.webp'); changeBgColor('#92ba3c');"></li>
+            <li data-text="Dragon Fruits"><img src="imgs/dragonFruits.webp" alt="Dragon Fruits image" width="50" height="50" onclick="imgSlider('imgs/dragonFruits.webp'); changeBgColor('#fb6cb2');"></li>
+            <li data-text="Pine Apple"><img src="imgs/pineApple.webp" alt="Pine Apple image" width="50" height="50" onclick="imgSlider('imgs/pineApple.webp'); changeBgColor('#ffb42b');"></li>
+        </ul>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="imgs/facebook.svg" alt="Link to my facebook account" width="16.8" height="16.8"></a>
+            </li>
+            <li>
+                <a href="#"><img src="imgs/twitter.svg" alt="Link to my twitter account" width="16.8" height="16.8"></a>
+            </li>
+            <li>
+                <a href="#"><img src="imgs/instagram.svg" alt="Link to my instagram account" width="16.8" height="16.8"></a>
+            </li>
+        </ul>
+    </section>
 
     <script src="script.min.js"></script>
 </body>
