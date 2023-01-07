@@ -9,9 +9,9 @@ Wrote of website layout from [YouTube link](https://www.youtube.com/watch?v=zpKk
 *short review*
 
 - it's first tab
-- !(https://kseniiamarkiv.github.io/fruit-app/imgs/apple.jpeg)
+- ![Link](https://kseniiamarkiv.github.io/fruit-app/imgs/apple.jpeg)
 
 - and second tab
-- !(https://kseniiamarkiv.github.io/fruit-app/imgs/mango.jpeg)
+- ![Link](https://kseniiamarkiv.github.io/fruit-app/imgs/mango.jpeg)
 
-**I hope you are interested so pass by link** https://kseniiamarkiv.github.io/fruit-app/#
+**I hope you are interested so you can pass by link** https://kseniiamarkiv.github.io/fruit-app/#
