@@ -10,9 +10,11 @@ sans-serif;
 $font-common: 'Josefin Slab',
 serif;
 @mixin transform($property) {
-    -webkit-transform: $property;
+      -webkit-transform: $property;
+    -moz-transform: $property;
     -ms-transform: $property;
     transform: $property;
+    -o-transform: $property;
 }
 
 @mixin devices ($breakpoint) {
